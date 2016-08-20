@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\sdk">
+      <UniqueIdentifier>{0b2a5199-75fb-4549-8923-730ce3f68728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vector">
+      <UniqueIdentifier>{447dba5b-a4fd-41e1-868a-1643232f2b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\vmt">
+      <UniqueIdentifier>{59477375-4de4-4afb-aa38-893f2252108c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\cheat">
+      <UniqueIdentifier>{3bfbe9bf-1ad7-45a0-85ee-ba1467cac0ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\base">
+      <UniqueIdentifier>{5380960f-3aa5-4b4b-a7e0-18f213da3000}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vmt">
+      <UniqueIdentifier>{c46627be-f301-4510-ad49-24d7ca81aa59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\cheat">
+      <UniqueIdentifier>{dcab54b7-783f-4006-9e8b-54e27ef882c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{f37fb93a-97ad-40e1-9f12-2888164a6547}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\hooks">
+      <UniqueIdentifier>{287a9e42-9af5-4730-aba3-47dd73b025c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\client">
+      <UniqueIdentifier>{59f83c2f-3fef-4887-a555-711ce9e9cc03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\engine">
+      <UniqueIdentifier>{414588be-380c-4d05-9eb1-37a4634d4cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\surface">
+      <UniqueIdentifier>{d18293f8-69b1-495e-b293-963cd85b7bd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\misc">
+      <UniqueIdentifier>{a451675b-0879-4720-83e5-bc4f99aaf38e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\util">
+      <UniqueIdentifier>{2cf8b971-0d49-41a7-ae5c-d5265b0e83bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\util">
+      <UniqueIdentifier>{773ac0d2-6821-4430-ba8e-bd93eb4901dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\server">
+      <UniqueIdentifier>{c1363504-f193-492a-bc1b-6751d91efe4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\sdk\netvars">
+      <UniqueIdentifier>{5431efb9-e537-480d-95db-638eb78addb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\netvars">
+      <UniqueIdentifier>{1dd5cfb9-32ce-4fae-8121-6d6e7eb96a8d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ibuki.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="init.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="createmove.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="painttraverse.cpp">
+      <Filter>Source Files\hooks</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="util.cpp">
+      <Filter>Source Files\util</Filter>
+    </ClCompile>
+    <ClCompile Include="aimbot.cpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClCompile>
+    <ClCompile Include="trigger.cpp">
+      <Filter>Source Files\cheat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ibuki.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="getvfunc.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="cheats.h">
+      <Filter>Header Files\base</Filter>
+    </ClInclude>
+    <ClInclude Include="engine.h">
+      <Filter>Header Files\sdk\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="clientmode.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="entlist.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>Header Files\sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="surface.h">
+      <Filter>Header Files\sdk\surface</Filter>
+    </ClInclude>
+    <ClInclude Include="globalvars.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="usercmd.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="enums.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="color.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files\sdk\server</Filter>
+    </ClInclude>
+    <ClInclude Include="aimbot.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+    <ClInclude Include="studiohdr.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="trace.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="cmodelinfo.h">
+      <Filter>Header Files\sdk\client</Filter>
+    </ClInclude>
+    <ClInclude Include="recvprop.h">
+      <Filter>Header Files\sdk\misc</Filter>
+    </ClInclude>
+    <ClInclude Include="trigger.h">
+      <Filter>Header Files\cheat</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
