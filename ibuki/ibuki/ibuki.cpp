@@ -1,7 +1,7 @@
 /*
 
 	Name: IBUKI
-	Copyright: 2016, Alvy Piper
+	Copyright: 2016, Alvy Piper <alvycat@protonmail.com>
 	Notice: This work is provided AS IS with NO WARRANTY and NO LIABILITY, any issues that are caused by my work or a derivative of my work shall NOT hold I (Alvy Piper, github.com/AlvyPiper) accountable.
 	
 	Feel free to redistribute, modify, and share. Please give credit where it is due, though.
